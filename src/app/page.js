@@ -59,7 +59,9 @@ export default function Home() {
         {/* Section */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white mt-7">Services I Offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white mt-7">
+              Services I Offer
+            </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet. Ut repellendus
               <span className="text-teal-500"> tempora</span> aut impedit quae
@@ -83,6 +85,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Vscode</p>
+              <p className="text-gray-800 py-1">ReactJs</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={camera} width={100} height={100} className="m-auto" />
@@ -98,6 +101,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Vscode</p>
+              <p className="text-gray-800 py-1">ReactJs</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={camera} width={100} height={100} className="m-auto" />
@@ -113,6 +117,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Vscode</p>
+              <p className="text-gray-800 py-1">ReactJs</p>
             </div>
           </div>
         </section>
